@@ -1,5 +1,218 @@
+@media only screen and (max-width: 1025px){
+    .container{
+        padding: 0 15px 18px 15px;
+    }
+    .main-title{
+        font: 50px/50px 'cera_problack';
+    }
+    .products-benefits{
+        justify-content: space-around;
+    }
+    .products-benefits:nth-child(9){
+        display: none;
+    }
+    .sort-tab p{
+        padding-right: 15px;
+    }
+    .page-search-list{
+        padding-right: 15px;
+    }
+    .information-container{
+        justify-content: center;
+    }
+    .information-box:last-child{
+        margin-top: 100px;
+    }
+    .blog-container{
+        padding-left: 40px;
+    }
+    .news-container{
+        padding: 0 15px 0 15px;
+    }
+    .news-item-second:after{
+        display: none;
+    }
+    .news-item-second:before{
+        display: none;
+    }
+    .news-item-second{
+        max-width: none;
+    }
+    .footer-social-list,
+    .footer-inner-second img{
+        padding-right: 15px;
+    }
+}
 @media only screen and (max-width: 769px){
     .container{
-        padding: 18px 15px;
+        padding: 0 15px 18px 15px;
+    }
+    .container-main{
+        display: block;
+    }
+    .categories-list{
+        max-width: 210px;
+    }
+    .products-img{
+        display: none;
+    }
+    .products-benefits{
+        justify-content: space-between;
+    }
+    .products-benefits img {
+        height: 200px;
+        width: 200px;
+    }
+    .products-benefits:nth-child(7),
+    .products-benefits:nth-child(8){
+        display: none;
+    }
+    .blog-container {
+        padding-left: 70px;
+    }
+    .news-container{
+        display: block;
+    }
+    .news-item,
+    .news-item-second{
+        max-width: 762px;
+        text-align: center;
+    }
+    .news-box{
+        max-width: 762px;
+        text-align: center;
+    }
+    .news-active{
+        margin: auto;
+    }
+    .footer-inner-second{
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 50%;
+        justify-content: space-around;
+    }
+    .footer-account,
+    .footer-help,
+    .footer-categories,
+    .footer-social-media{
+        margin-right: 0;
+    }
+    .tab-list {
+        gap: 13px;
+    }
+    .news-box p{
+        padding-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 431px) {
+    .logo-wrapper {
+        max-width: 50px;
+    }
+
+    .header_logo {
+        clip-path: inset(0 115px 0 0);
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .nav-but-wrap {
+        padding: 0 0 5px 0;
+        margin-top: 15px;
+    }
+
+    .login-btn span {
+        display: none;
+    }
+    .login-btn img{
+        margin-right: 0;
+    }
+
+    .container-main {
+        margin-top: 5px;
+    }
+
+    .img-main {
+        max-width: 400px;
+    }
+
+    .button-main {
+        padding: 7px 20px;
+    }
+    .list-title{
+        font: 15px / 16px 'cera_probold';
+    }
+    .list-item{
+        font: 13px / 40px 'cera_proregular';
+    }
+    .list-item-second{
+        font: 13px / 40px 'cera_proregular';
+    }
+    .categories-list{
+        max-width: 190px;
+    }
+    .proj-title{
+        font: 15px / 16px 'cera_probold';
+    }
+    .button-price{
+        font: 13px / 20px 'cera_probold';
+        padding: 4px 17px;
+    }
+    .products-benefits:nth-child(5),
+    .products-benefits:nth-child(6),
+    .products-benefits:nth-child(7),
+    .products-benefits:nth-child(8){
+        display: none;
+    }
+    .page-search-list{
+        justify-content: flex-start;
+    }
+    .page-search-list a{
+        width: 28px;
+        height: 28px;
+        font: 16px / 16px 'cera_proregular';
+    }
+    .information-box img{
+        scale: calc(100% / 1.2);
+    }
+    .information-box-text h3{
+        font: 16px / 24px 'cera_problack';
+        margin: 30px 30px 0 0;
+    }
+    .information-box-text p{
+        font: 12px / 24px 'cera_proregular';
+        margin: 0 30px 15px 0;
+    }
+    .information-box{
+        text-align: left;
+    }
+    .button-information{
+        font: 15px / 20px 'cera_promedium';
+        padding: 9px 10px;
+        margin-bottom: 5px;
+    }
+    .button-information:after{
+        margin: 2px 0 0 2px;
+    }
+    .footer-inner{
+        display: block;
+        text-align: center;
+    }
+    .location-link,
+    .email-link,
+    .phone-link{
+        max-width: none;
+        margin-bottom: 7px;
+        align-content: center;
+        justify-content: center;
+    }
+    .social-container{
+        margin-top: 33px;
+    }
+}
+@media only screen and (max-width: 280px){
+    header .nav__list{
+        align-items: center;
     }
 }

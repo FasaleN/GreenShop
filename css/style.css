@@ -144,6 +144,8 @@ header {
     align-items: center;
 }
 
+
+
 .header-nav-list {
     gap: 36px;
     display: flex;
@@ -154,8 +156,6 @@ header {
 .header-nav-list li {
     position: relative;
 }
-
-
 
 .header-links {
     font: 16px/20px 'cera_proregular';
@@ -278,16 +278,10 @@ header {
     text-decoration: none;
 }
 
-
-
-
-
-
-/*Section Main*/
-
-main {
-    margin-top: 12px;
+.nav-but-wrap{
+    display: none;
 }
+/*Section Main*/
 
 .container-main {
     display: flex;
@@ -315,7 +309,6 @@ main {
 
 .main-title {
     font: 70px/70px 'cera_problack';
-    font-weight: 900;
     line-height: 100%;
     text-transform: uppercase;
     color: #3d3d3d;
@@ -1249,6 +1242,10 @@ input[type="range"]::-webkit-slider-thumb {
     pointer-events: auto;
     -webkit-appearance: none;
 }
+
+
+
+
 
 
 
